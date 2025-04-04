@@ -19,7 +19,7 @@ struct TUserProfileView: View {
                 let listWithLabelModel = createListWithLabelModel(from: userProfileData)
                 
                 // Display the list using WidgetView
-                WidgetView(widgetModel: WidgetModel(
+                WidgetContainerView(widgetModel: WidgetDataModel(
                     title: TAppConstant.TAppStrings.title,
                     subtitle: TAppConstant.TAppStrings.subtitle,
                     widgetContent: listWithLabelModel
@@ -45,12 +45,12 @@ struct TUserProfileView: View {
     
     // MARK: - Helper Methods
     
-    private func createListWithLabelModel(from userProfileData: [TUserItem]) -> ListWithLabelModel {
-        ListWithLabelModel(
+    private func createListWithLabelModel(from userProfileData: [TUserItem]) -> TableWithLabelModel {
+        TableWithLabelModel(
             contentType: .table,
-            listTilte: TAppConstant.TAppStrings.title,
-            listData: userProfileData.map { user in
-                ListWithLabelViewItem(
+            tableTitle: TAppConstant.TAppStrings.title,
+            tableData: userProfileData.map { user in
+                TableWithLabelItem(
                     label1: user.name ?? "NA",
                     label2: user.status ?? "NA"
                 )

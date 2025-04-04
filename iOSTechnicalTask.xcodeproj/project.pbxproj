@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7AF05DC2D9FEBBC00A31A63 /* iOS-Task-Frmwrk in Frameworks */ = {isa = PBXBuildFile; productRef = B7AF05DB2D9FEBBC00A31A63 /* iOS-Task-Frmwrk */; };
+		B7A069C12DA0016E008ED093 /* iOS-Task-Frmwrk in Frameworks */ = {isa = PBXBuildFile; productRef = B7A069C02DA0016E008ED093 /* iOS-Task-Frmwrk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AF05DC2D9FEBBC00A31A63 /* iOS-Task-Frmwrk in Frameworks */,
+				B7A069C12DA0016E008ED093 /* iOS-Task-Frmwrk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 			);
 			name = iOSTechnicalTask;
 			packageProductDependencies = (
-				B7AF05DB2D9FEBBC00A31A63 /* iOS-Task-Frmwrk */,
+				B7A069C02DA0016E008ED093 /* iOS-Task-Frmwrk */,
 			);
 			productName = iOSTechnicalTask;
 			productReference = B7810ECE2D9ABF1500A12D5A /* iOSTechnicalTask.app */;
@@ -216,7 +216,7 @@
 			mainGroup = B7810EC52D9ABF1500A12D5A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B7AF05DA2D9FEBBC00A31A63 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */,
+				B7A069BF2DA0016E008ED093 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B7810ECF2D9ABF1500A12D5A /* Products */;
@@ -577,7 +577,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B7AF05DA2D9FEBBC00A31A63 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */ = {
+		B7A069BF2DA0016E008ED093 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ambujsingh83/iOS-Task-Frmwrk.git";
 			requirement = {
@@ -588,9 +588,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B7AF05DB2D9FEBBC00A31A63 /* iOS-Task-Frmwrk */ = {
+		B7A069C02DA0016E008ED093 /* iOS-Task-Frmwrk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B7AF05DA2D9FEBBC00A31A63 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */;
+			package = B7A069BF2DA0016E008ED093 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */;
 			productName = "iOS-Task-Frmwrk";
 		};
 /* End XCSwiftPackageProductDependency section */
