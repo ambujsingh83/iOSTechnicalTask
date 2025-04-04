@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B7AF05DC2D9FEBBC00A31A63 /* iOS-Task-Frmwrk in Frameworks */ = {isa = PBXBuildFile; productRef = B7AF05DB2D9FEBBC00A31A63 /* iOS-Task-Frmwrk */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B7810EDF2D9ABF1700A12D5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -22,6 +26,19 @@
 			remoteInfo = iOSTechnicalTask;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7810F002D9AD32300A12D5A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B7810ECE2D9ABF1500A12D5A /* iOSTechnicalTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTechnicalTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AF05DC2D9FEBBC00A31A63 /* iOS-Task-Frmwrk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +120,7 @@
 				B7810ECA2D9ABF1500A12D5A /* Sources */,
 				B7810ECB2D9ABF1500A12D5A /* Frameworks */,
 				B7810ECC2D9ABF1500A12D5A /* Resources */,
+				B7810F002D9AD32300A12D5A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +131,7 @@
 			);
 			name = iOSTechnicalTask;
 			packageProductDependencies = (
+				B7AF05DB2D9FEBBC00A31A63 /* iOS-Task-Frmwrk */,
 			);
 			productName = iOSTechnicalTask;
 			productReference = B7810ECE2D9ABF1500A12D5A /* iOSTechnicalTask.app */;
@@ -195,6 +215,9 @@
 			);
 			mainGroup = B7810EC52D9ABF1500A12D5A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B7AF05DA2D9FEBBC00A31A63 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B7810ECF2D9ABF1500A12D5A /* Products */;
 			projectDirPath = "";
@@ -552,6 +575,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7AF05DA2D9FEBBC00A31A63 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ambujsingh83/iOS-Task-Frmwrk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7AF05DB2D9FEBBC00A31A63 /* iOS-Task-Frmwrk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7AF05DA2D9FEBBC00A31A63 /* XCRemoteSwiftPackageReference "iOS-Task-Frmwrk" */;
+			productName = "iOS-Task-Frmwrk";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7810EC62D9ABF1500A12D5A /* Project object */;
 }

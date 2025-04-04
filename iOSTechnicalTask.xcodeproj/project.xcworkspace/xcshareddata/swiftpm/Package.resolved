@@ -1,0 +1,15 @@
+{
+  "originHash" : "ab819eb461c4e3a1f3382c369ef5423f1cbad15a3f68ebf402c9e36bdb69a449",
+  "pins" : [
+    {
+      "identity" : "ios-task-frmwrk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ambujsingh83/iOS-Task-Frmwrk.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4f9a2e737ce74a7ae41c8084372576041fb329f4"
+      }
+    }
+  ],
+  "version" : 3
+}

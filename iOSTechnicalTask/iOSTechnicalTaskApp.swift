@@ -11,7 +11,9 @@ import SwiftUI
 struct iOSTechnicalTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                TBaseView()
+            }
         }
     }
 }
